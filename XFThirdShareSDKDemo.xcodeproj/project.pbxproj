@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E765612DDB54191D972799 /* Pods_XFThirdShareSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DD13EFCF8E6059BDE685AB /* Pods_XFThirdShareSDKDemo.framework */; };
+		5F3E18BD2019BC21003A41B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E18BC2019BC21003A41B5 /* AppDelegate.m */; };
+		5F3E18C02019BC21003A41B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E18BF2019BC21003A41B5 /* ViewController.m */; };
+		5F3E18C32019BC21003A41B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F3E18C12019BC21003A41B5 /* Main.storyboard */; };
+		5F3E18C52019BC21003A41B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F3E18C42019BC21003A41B5 /* Assets.xcassets */; };
+		5F3E18C82019BC21003A41B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F3E18C62019BC21003A41B5 /* LaunchScreen.storyboard */; };
+		5F3E18CB2019BC21003A41B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E18CA2019BC21003A41B5 /* main.m */; };
+		5F3E18D52019BC21003A41B5 /* XFThirdShareSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E18D42019BC21003A41B5 /* XFThirdShareSDKDemoTests.m */; };
+		5F3E18E02019BC21003A41B5 /* XFThirdShareSDKDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E18DF2019BC21003A41B5 /* XFThirdShareSDKDemoUITests.m */; };
+		5F3E18F52019CD65003A41B5 /* XFShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E18F42019CD65003A41B5 /* XFShareManager.m */; };
+		5F3E18F82019CD7A003A41B5 /* XFShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E18F72019CD79003A41B5 /* XFShareModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F3E18D12019BC21003A41B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F3E18B02019BC21003A41B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F3E18B72019BC21003A41B5;
+			remoteInfo = XFThirdShareSDKDemo;
+		};
+		5F3E18DC2019BC21003A41B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F3E18B02019BC21003A41B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F3E18B72019BC21003A41B5;
+			remoteInfo = XFThirdShareSDKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033055EFFD72AAB8EA2FC1F0 /* Pods-XFThirdShareSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XFThirdShareSDKDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XFThirdShareSDKDemo/Pods-XFThirdShareSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5F3E18B82019BC21003A41B5 /* XFThirdShareSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XFThirdShareSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3E18BB2019BC21003A41B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F3E18BC2019BC21003A41B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F3E18BE2019BC21003A41B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F3E18BF2019BC21003A41B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F3E18C22019BC21003A41B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F3E18C42019BC21003A41B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F3E18C72019BC21003A41B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F3E18C92019BC21003A41B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F3E18CA2019BC21003A41B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F3E18D02019BC21003A41B5 /* XFThirdShareSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XFThirdShareSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3E18D42019BC21003A41B5 /* XFThirdShareSDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFThirdShareSDKDemoTests.m; sourceTree = "<group>"; };
+		5F3E18D62019BC21003A41B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F3E18DB2019BC21003A41B5 /* XFThirdShareSDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XFThirdShareSDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3E18DF2019BC21003A41B5 /* XFThirdShareSDKDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFThirdShareSDKDemoUITests.m; sourceTree = "<group>"; };
+		5F3E18E12019BC21003A41B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F3E18F32019CD65003A41B5 /* XFShareManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFShareManager.h; sourceTree = "<group>"; };
+		5F3E18F42019CD65003A41B5 /* XFShareManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFShareManager.m; sourceTree = "<group>"; };
+		5F3E18F62019CD79003A41B5 /* XFShareModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFShareModel.h; sourceTree = "<group>"; };
+		5F3E18F72019CD79003A41B5 /* XFShareModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFShareModel.m; sourceTree = "<group>"; };
+		96DD13EFCF8E6059BDE685AB /* Pods_XFThirdShareSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XFThirdShareSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02D4B10203870A197C19BC6 /* Pods-XFThirdShareSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XFThirdShareSDKDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XFThirdShareSDKDemo/Pods-XFThirdShareSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F3E18B52019BC21003A41B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E765612DDB54191D972799 /* Pods_XFThirdShareSDKDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3E18CD2019BC21003A41B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3E18D82019BC21003A41B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D33302076BC7F3141EA0745 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				033055EFFD72AAB8EA2FC1F0 /* Pods-XFThirdShareSDKDemo.debug.xcconfig */,
+				F02D4B10203870A197C19BC6 /* Pods-XFThirdShareSDKDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5F3E18AF2019BC21003A41B5 = {
+			isa = PBXGroup;
+			children = (
+				5F3E18BA2019BC21003A41B5 /* XFThirdShareSDKDemo */,
+				5F3E18D32019BC21003A41B5 /* XFThirdShareSDKDemoTests */,
+				5F3E18DE2019BC21003A41B5 /* XFThirdShareSDKDemoUITests */,
+				5F3E18B92019BC21003A41B5 /* Products */,
+				2D33302076BC7F3141EA0745 /* Pods */,
+				F79F1382F8860B3BEB26262F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5F3E18B92019BC21003A41B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F3E18B82019BC21003A41B5 /* XFThirdShareSDKDemo.app */,
+				5F3E18D02019BC21003A41B5 /* XFThirdShareSDKDemoTests.xctest */,
+				5F3E18DB2019BC21003A41B5 /* XFThirdShareSDKDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F3E18BA2019BC21003A41B5 /* XFThirdShareSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5F3E18F22019CD05003A41B5 /* XFShareManager */,
+				5F3E18BB2019BC21003A41B5 /* AppDelegate.h */,
+				5F3E18BC2019BC21003A41B5 /* AppDelegate.m */,
+				5F3E18BE2019BC21003A41B5 /* ViewController.h */,
+				5F3E18BF2019BC21003A41B5 /* ViewController.m */,
+				5F3E18C12019BC21003A41B5 /* Main.storyboard */,
+				5F3E18C42019BC21003A41B5 /* Assets.xcassets */,
+				5F3E18C62019BC21003A41B5 /* LaunchScreen.storyboard */,
+				5F3E18C92019BC21003A41B5 /* Info.plist */,
+				5F3E18CA2019BC21003A41B5 /* main.m */,
+			);
+			path = XFThirdShareSDKDemo;
+			sourceTree = "<group>";
+		};
+		5F3E18D32019BC21003A41B5 /* XFThirdShareSDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F3E18D42019BC21003A41B5 /* XFThirdShareSDKDemoTests.m */,
+				5F3E18D62019BC21003A41B5 /* Info.plist */,
+			);
+			path = XFThirdShareSDKDemoTests;
+			sourceTree = "<group>";
+		};
+		5F3E18DE2019BC21003A41B5 /* XFThirdShareSDKDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F3E18DF2019BC21003A41B5 /* XFThirdShareSDKDemoUITests.m */,
+				5F3E18E12019BC21003A41B5 /* Info.plist */,
+			);
+			path = XFThirdShareSDKDemoUITests;
+			sourceTree = "<group>";
+		};
+		5F3E18F22019CD05003A41B5 /* XFShareManager */ = {
+			isa = PBXGroup;
+			children = (
+				5F3E18F32019CD65003A41B5 /* XFShareManager.h */,
+				5F3E18F42019CD65003A41B5 /* XFShareManager.m */,
+				5F3E18F62019CD79003A41B5 /* XFShareModel.h */,
+				5F3E18F72019CD79003A41B5 /* XFShareModel.m */,
+			);
+			path = XFShareManager;
+			sourceTree = "<group>";
+		};
+		F79F1382F8860B3BEB26262F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96DD13EFCF8E6059BDE685AB /* Pods_XFThirdShareSDKDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F3E18B72019BC21003A41B5 /* XFThirdShareSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F3E18E42019BC21003A41B5 /* Build configuration list for PBXNativeTarget "XFThirdShareSDKDemo" */;
+			buildPhases = (
+				AA670FA64176754D6EF7AA2E /* [CP] Check Pods Manifest.lock */,
+				5F3E18B42019BC21003A41B5 /* Sources */,
+				5F3E18B52019BC21003A41B5 /* Frameworks */,
+				5F3E18B62019BC21003A41B5 /* Resources */,
+				9DFFEDC7ADB789543F42FBD5 /* [CP] Embed Pods Frameworks */,
+				B5DE0EF1CB5CA8C7CD39E434 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XFThirdShareSDKDemo;
+			productName = XFThirdShareSDKDemo;
+			productReference = 5F3E18B82019BC21003A41B5 /* XFThirdShareSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F3E18CF2019BC21003A41B5 /* XFThirdShareSDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F3E18E72019BC21003A41B5 /* Build configuration list for PBXNativeTarget "XFThirdShareSDKDemoTests" */;
+			buildPhases = (
+				5F3E18CC2019BC21003A41B5 /* Sources */,
+				5F3E18CD2019BC21003A41B5 /* Frameworks */,
+				5F3E18CE2019BC21003A41B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F3E18D22019BC21003A41B5 /* PBXTargetDependency */,
+			);
+			name = XFThirdShareSDKDemoTests;
+			productName = XFThirdShareSDKDemoTests;
+			productReference = 5F3E18D02019BC21003A41B5 /* XFThirdShareSDKDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F3E18DA2019BC21003A41B5 /* XFThirdShareSDKDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F3E18EA2019BC21003A41B5 /* Build configuration list for PBXNativeTarget "XFThirdShareSDKDemoUITests" */;
+			buildPhases = (
+				5F3E18D72019BC21003A41B5 /* Sources */,
+				5F3E18D82019BC21003A41B5 /* Frameworks */,
+				5F3E18D92019BC21003A41B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F3E18DD2019BC21003A41B5 /* PBXTargetDependency */,
+			);
+			name = XFThirdShareSDKDemoUITests;
+			productName = XFThirdShareSDKDemoUITests;
+			productReference = 5F3E18DB2019BC21003A41B5 /* XFThirdShareSDKDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F3E18B02019BC21003A41B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "许锋";
+				TargetAttributes = {
+					5F3E18B72019BC21003A41B5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5F3E18CF2019BC21003A41B5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5F3E18B72019BC21003A41B5;
+					};
+					5F3E18DA2019BC21003A41B5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5F3E18B72019BC21003A41B5;
+					};
+				};
+			};
+			buildConfigurationList = 5F3E18B32019BC21003A41B5 /* Build configuration list for PBXProject "XFThirdShareSDKDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F3E18AF2019BC21003A41B5;
+			productRefGroup = 5F3E18B92019BC21003A41B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F3E18B72019BC21003A41B5 /* XFThirdShareSDKDemo */,
+				5F3E18CF2019BC21003A41B5 /* XFThirdShareSDKDemoTests */,
+				5F3E18DA2019BC21003A41B5 /* XFThirdShareSDKDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F3E18B62019BC21003A41B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3E18C82019BC21003A41B5 /* LaunchScreen.storyboard in Resources */,
+				5F3E18C52019BC21003A41B5 /* Assets.xcassets in Resources */,
+				5F3E18C32019BC21003A41B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3E18CE2019BC21003A41B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3E18D92019BC21003A41B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9DFFEDC7ADB789543F42FBD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XFThirdShareSDKDemo/Pods-XFThirdShareSDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA670FA64176754D6EF7AA2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B5DE0EF1CB5CA8C7CD39E434 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XFThirdShareSDKDemo/Pods-XFThirdShareSDKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F3E18B42019BC21003A41B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3E18C02019BC21003A41B5 /* ViewController.m in Sources */,
+				5F3E18CB2019BC21003A41B5 /* main.m in Sources */,
+				5F3E18BD2019BC21003A41B5 /* AppDelegate.m in Sources */,
+				5F3E18F82019CD7A003A41B5 /* XFShareModel.m in Sources */,
+				5F3E18F52019CD65003A41B5 /* XFShareManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3E18CC2019BC21003A41B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3E18D52019BC21003A41B5 /* XFThirdShareSDKDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3E18D72019BC21003A41B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3E18E02019BC21003A41B5 /* XFThirdShareSDKDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F3E18D22019BC21003A41B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F3E18B72019BC21003A41B5 /* XFThirdShareSDKDemo */;
+			targetProxy = 5F3E18D12019BC21003A41B5 /* PBXContainerItemProxy */;
+		};
+		5F3E18DD2019BC21003A41B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F3E18B72019BC21003A41B5 /* XFThirdShareSDKDemo */;
+			targetProxy = 5F3E18DC2019BC21003A41B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F3E18C12019BC21003A41B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F3E18C22019BC21003A41B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F3E18C62019BC21003A41B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F3E18C72019BC21003A41B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F3E18E22019BC21003A41B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F3E18E32019BC21003A41B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F3E18E52019BC21003A41B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 033055EFFD72AAB8EA2FC1F0 /* Pods-XFThirdShareSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AJ625MQ65L;
+				INFOPLIST_FILE = XFThirdShareSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuomogroup.ylyk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F3E18E62019BC21003A41B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F02D4B10203870A197C19BC6 /* Pods-XFThirdShareSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AJ625MQ65L;
+				INFOPLIST_FILE = XFThirdShareSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuomogroup.ylyk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F3E18E82019BC21003A41B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AJ625MQ65L;
+				INFOPLIST_FILE = XFThirdShareSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylyk.XFThirdShareSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XFThirdShareSDKDemo.app/XFThirdShareSDKDemo";
+			};
+			name = Debug;
+		};
+		5F3E18E92019BC21003A41B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AJ625MQ65L;
+				INFOPLIST_FILE = XFThirdShareSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylyk.XFThirdShareSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XFThirdShareSDKDemo.app/XFThirdShareSDKDemo";
+			};
+			name = Release;
+		};
+		5F3E18EB2019BC21003A41B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AJ625MQ65L;
+				INFOPLIST_FILE = XFThirdShareSDKDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylyk.XFThirdShareSDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XFThirdShareSDKDemo;
+			};
+			name = Debug;
+		};
+		5F3E18EC2019BC21003A41B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AJ625MQ65L;
+				INFOPLIST_FILE = XFThirdShareSDKDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylyk.XFThirdShareSDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XFThirdShareSDKDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F3E18B32019BC21003A41B5 /* Build configuration list for PBXProject "XFThirdShareSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3E18E22019BC21003A41B5 /* Debug */,
+				5F3E18E32019BC21003A41B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F3E18E42019BC21003A41B5 /* Build configuration list for PBXNativeTarget "XFThirdShareSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3E18E52019BC21003A41B5 /* Debug */,
+				5F3E18E62019BC21003A41B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F3E18E72019BC21003A41B5 /* Build configuration list for PBXNativeTarget "XFThirdShareSDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3E18E82019BC21003A41B5 /* Debug */,
+				5F3E18E92019BC21003A41B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F3E18EA2019BC21003A41B5 /* Build configuration list for PBXNativeTarget "XFThirdShareSDKDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3E18EB2019BC21003A41B5 /* Debug */,
+				5F3E18EC2019BC21003A41B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F3E18B02019BC21003A41B5 /* Project object */;
+}
