@@ -15,8 +15,8 @@
     shareModel.webpageUrl = _shareUrl.text;
     shareModel.shareType = XFShareTypeWebPage;
     
-    //分享链接 微信好友
-    shareModel.shareType = XFShareTypeWebPage;
+    //分享链接 微信朋友圈
+    shareModel.shareType = XFShareTypeWebPage;
     [XFShareManager sharedInstance].shareStatuBlcok = ^(BOOL isScuess) {
         if (isScuess) {
             NSLog(@"分享成功");
@@ -27,8 +27,9 @@
     [[XFShareManager sharedInstance]shareToWX:shareModel scene:WXSceneSession];
     
     
-    //分享链接 微信朋友圈
-    shareModel.shareType = XFShareTypeWebPage;
+    
+     //分享链接 微信朋友圈
+    shareModel.shareType = XFShareTypeWebPage;
     [XFShareManager sharedInstance].shareStatuBlcok = ^(BOOL isScuess) {
         if (isScuess) {
             NSLog(@"分享成功");
