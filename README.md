@@ -24,12 +24,12 @@
             NSLog(@"分享失败");
         }
     };
-    [[XFShareManager sharedInstance]shareToWX:shareModel scene:WXSceneSession];
+    [[XFShareManager sharedInstance]shareToWX:shareModel scene:WXSceneTimeline];
     
     
     
-     //分享链接 微信朋友圈
-    shareModel.shareType = XFShareTypeWebPage;
+     //分享链接 微信好友
+    shareModel.shareType = XFShareTypeWebPage;
     [XFShareManager sharedInstance].shareStatuBlcok = ^(BOOL isScuess) {
         if (isScuess) {
             NSLog(@"分享成功");
@@ -37,7 +37,20 @@
             NSLog(@"分享失败");
         }
     };
-    [[XFShareManager sharedInstance]shareToWX:shareModel scene:WXSceneTimeline];
+    [[XFShareManager sharedInstance]shareToWX:shareModel scene:WXSceneSession];
+    
+     //分享图片 微信好友
+    shareModel.shareType = XFShareTypeWebPage;
+    shareModel.image = _shareImgView.image;
+    [XFShareManager sharedInstance].shareStatuBlcok = ^(BOOL isScuess) {
+        if (isScuess) {
+            NSLog(@"分享成功");
+        } else {
+            NSLog(@"分享失败");
+        }
+    };
+    [[XFShareManager sharedInstance]shareToWX:shareModel scene:WXSceneSession];
+    
     
     //分享图片 微信好友
     shareModel.shareType = XFShareTypeImage;
@@ -49,10 +62,10 @@
             NSLog(@"分享失败");
         }
     };
-    [[XFShareManager sharedInstance]shareToWX:shareModel scene:WXSceneSession];
+    [[XFShareManager sharedInstance]shareToWX:shareModel scene:WXSceneTimeline];
     
-    //分享图片 微博
-    shareModel.shareType = XFShareTypeImage;
+     //分享拖 新浪微博
+    shareModel.shareType = XFShareTypeWebPage;
     shareModel.image = _shareImgView.image;
     [XFShareManager sharedInstance].shareStatuBlcok = ^(BOOL isScuess) {
         if (isScuess) {
@@ -61,7 +74,7 @@
             NSLog(@"分享失败");
         }
     };
-    [[XFShareManager sharedInstance] shareToWeibo:shareModel];
+    [[XFShareManager sharedInstance]shareToWeibo:shareModel];
     
    3:优点：可扩展性强,使用起来方便代码简洁。
 
