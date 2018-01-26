@@ -4,7 +4,6 @@
 ### 1:首先 cd到改目录下面 pod install 下载所需SDK 
 ### 2:具体调用方法如下:
  
-    ```
     shareTitle = @"分享标题";
     shareDescription = @"分享描述";
     thumbImage = [UIImage imageNamed:@"60"];
@@ -16,8 +15,6 @@
     shareModel.webpageUrl = _shareUrl.text;
     shareModel.shareType = XFShareTypeWebPage;
     
-    ```
-    ```
     //分享链接 微信好友
     shareModel.shareType = XFShareTypeWebPage;
     [XFShareManager sharedInstance].shareStatuBlcok = ^(BOOL isScuess) {
@@ -28,8 +25,6 @@
     }
     };
     [[XFShareManager sharedInstance]shareToWX:shareModel scene:WXSceneSession];
-    ```
-    ```
     //分享链接 微信朋友圈
     shareModel.shareType = XFShareTypeWebPage;
     [XFShareManager sharedInstance].shareStatuBlcok = ^(BOOL isScuess) {
@@ -40,8 +35,6 @@
     }
     };
     [[XFShareManager sharedInstance]shareToWX:shareModel scene:WXSceneTimeline];
-    ```
-    ```
     //分享图片 微信朋友圈
     shareModel.shareType = XFShareTypeImage;
     shareModel.image = _shareImgView.image;
@@ -53,8 +46,7 @@
     }
     };
     [[XFShareManager sharedInstance]shareToWX:shareModel scene:WXSceneTimeline];
-    ```
-    ```
+    
     //分享图片 新浪微博
     shareModel.shareType = XFShareTypeImage;
     shareModel.image = _shareImgView.image;
@@ -66,7 +58,6 @@
     }
     };
     [[XFShareManager sharedInstance] shareToWeibo:shareModel];
-    ```
    
 ### 3:优点：可扩展性强,使用起来方便代码简洁。
 
