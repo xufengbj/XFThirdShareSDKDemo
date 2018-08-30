@@ -3,8 +3,8 @@
 ## 使用方法: 
 ### 1:首先 cd到改目录下面 pod install 下载所需SDK 
 ### 2:具体调用方法如下:
- 
-    shareTitle = @"分享标题";
+ ```
+  shareTitle = @"分享标题";
     shareDescription = @"分享描述";
     thumbImage = [UIImage imageNamed:@"60"];
     
@@ -58,6 +58,6 @@
     }
     };
     [[XFShareManager sharedInstance] shareToWeibo:shareModel];
-   
+ ```
 ### 3:优点：可扩展性强,使用起来方便代码简洁。
 
